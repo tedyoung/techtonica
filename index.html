@@ -14,11 +14,11 @@
     <meta property="og:description" content="Tuition-free tech training and job placement at sponsoring companies for low-income women and non-binary adults."/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://techtonica.org"/>
-    <meta property="og:image" content="{{ url_for('static', filename='img/women-library-2-min.jpg') }}"/>
-    <link href="{{ url_for('static', filename='img/favicon.ico') }}" rel="icon" type="image/x-icon" />
+    <meta property="og:image" content="static/img/women-library-2-min.jpg"/>
+    <link href="static/img/favicon.ico" rel="icon" type="image/x-icon" />
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
-    <link rel="preload" href="{{ url_for('static', filename='img/women-library-min.jpg') }}" as="image">
+    <link rel="stylesheet" href="static/img/static/css/style.css" />
+    <link rel="preload" href="static/img/women-library-min.jpg" as="image">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -33,19 +33,19 @@
     <!-- BEGIN HEADER -->
     <nav class="nav-bar banner-visible">
       <div class="nav-bar-inner">
-        <a href="{{ url_for('render_home_page') }}" class="img-link">
-          <img src="{{ url_for('static', filename='img/techtonica-logo-name-min.jpg') }}" alt="Techtonica logo"class="logo">
+        <a href="/" class="img-link">
+          <img src="static/img/techtonica-logo-name-min.jpg" alt="Techtonica logo"class="logo">
         </a>
         <button class="lines-button hidden-lg" type="button" role="button" aria-label="Toggle Navigation">
           <span class="lines"></span>
         </button>
           <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JK79ZYMRLEWDA" class="donate nav-link" target="_blank">Donate</a>
-          <a href="{{ url_for('render_about_page') }}" class="aboutus nav-link">About</a>
-          <a href="{{ url_for('render_home_page') }}#supporters" class="supporters nav-link">Supporters</a>
-          <a href="{{ url_for('render_home_page') }}#howtohelp" class="howtohelp nav-link">How to Help</a>
-          <a href="{{ url_for('render_home_page') }}#howitworks" class="howitworks nav-link">How It Works</a>
-          <a href="{{ url_for('render_home_page') }}#why" class="why nav-link">Why</a>
-          <a href="{{ url_for('render_home_page') }}#whatwedo" class="whatwedo nav-link">What We Do</a>
+          <a href="/" class="aboutus nav-link">About</a>
+          <a href="/#supporters" class="supporters nav-link">Supporters</a>
+          <a href="/#howtohelp" class="howtohelp nav-link">How to Help</a>
+          <a href="/#howitworks" class="howitworks nav-link">How It Works</a>
+          <a href="/#why" class="why nav-link">Why</a>
+          <a href="/#whatwedo" class="whatwedo nav-link">What We Do</a>
       </div>
     </nav>
     <!-- BEGIN MAIN CONTENT -->
